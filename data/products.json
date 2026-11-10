@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "البدلة الصوفية الملكية",
+      "category": "suits",
+      "category_name": "بدلات",
+      "price": 1250,
+      "old_price": null,
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=1000&auto=format&fit=crop",
+      "featured": true,
+      "description": "بدلة مصنوعة يدوياً من صوف إيطالي فاخر (Super 150s)، بقصة كلاسيكية دقيقة تعكس هدوء الثراء العريق.",
+      "details": "قطعة أساسية خالدة لكل رجل يقدّر التفاصيل. مصممة لتبقى معك لعقود."
+    },
+    {
+      "id": 2,
+      "name": "قميص الأوكسفورد الأبيض",
+      "category": "shirts",
+      "category_name": "قمصان",
+      "price": 180,
+      "old_price": 220,
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1000&auto=format&fit=crop",
+      "featured": true,
+      "description": "قطن مصري 100% بقصة كلاسيكية دقيقة. مثالي للمناسبات الرسمية والإطلالات اليومية الراقية.",
+      "details": "أزرار صدف طبيعية، وياقة مثالية تتناسب مع ربطة العنق."
+    },
+    {
+      "id": 3,
+      "name": "ساعة Patek Philippe الكلاسيكية",
+      "category": "accessories",
+      "category_name": "إكسسوارات",
+      "price": 850,
+      "old_price": null,
+      "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1000&auto=format&fit=crop",
+      "featured": true,
+      "description": "ساعة كلاسيكية بمينا أبيض أنيق وسوار جلد طبيعي. قطعة فنية تُكمل إطلالتك الرسمية بلمسة من الفخامة السويسرية.",
+      "details": "حركة ميكانيكية دقيقة، زجاج ياقوتي مقاوم للخدش."
+    },
+    {
+      "id": 4,
+      "name": "حذاء أوكسفورد الجلدي",
+      "category": "shoes",
+      "category_name": "أحذية",
+      "price": 450,
+      "old_price": null,
+      "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=1000&auto=format&fit=crop",
+      "featured": false,
+      "description": "جلد طبيعي مدبوغ يدوياً، بتصميم أوكسفورد كلاسيكي يناسب البدلات الرسمية.",
+      "details": "نعل جلدي مقاوم للانزلاق، خياطة يدوية دقيقة."
+    },
+    {
+      "id": 5,
+      "name": "معطف الصوف الطويل",
+      "category": "outerwear",
+      "category_name": "معاطف",
+      "price": 950,
+      "old_price": 1100,
+      "image": "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?q=80&w=1000&auto=format&fit=crop",
+      "featured": false,
+      "description": "معطف صوف فاخر بلون الكاميل الكلاسيكي، يضيف لمسة من الفخامة لأي إطلالة شتوية.",
+      "details": "بطانة حريرية، جيوب داخلية مخفية."
+    },
+    {
+      "id": 6,
+      "name": "ربطة عنق حريرية",
+      "category": "accessories",
+      "category_name": "إكسسوارات",
+      "price": 120,
+      "old_price": null,
+      "image": "https://images.unsplash.com/photo-1589756823695-278bc923f962?q=80&w=1000&auto=format&fit=crop",
+      "featured": false,
+      "description": "ربطة عنق من الحرير الطبيعي بنقشة كلاسيكية هادئة، تُكمل إطلالتك الرسمية.",
+      "details": "مصنوعة يدوياً في إيطاليا."
+    }
+  ]
+}
