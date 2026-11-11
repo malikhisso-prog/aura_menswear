@@ -1,6 +1,8 @@
-/* ═══════ إصلاحات الموبايل ═══════ */
+@charset "UTF-8";
 
-/* إظهار أزرار الإضافة للسلة على الشاشات اللمسية (ما في hover) */
+/* Mobile fixes */
+
+/* Show add-to-cart buttons on touch screens (no hover) */
 @media (hover: none) {
     .product-actions {
         opacity: 1;
@@ -9,14 +11,14 @@
 }
 
 @media (max-width: 768px) {
-    /* القائمة الجانبية بارتفاع الشاشة الفعلي */
+    /* Side menu uses the real screen height */
     .main-nav {
         height: 100vh;
         height: 100dvh;
         overflow-y: auto;
     }
 
-    /* منع zoom الآيفون عند الضغط على الحقول */
+    /* Prevent iPhone auto-zoom on form fields */
     input, select, textarea,
     .form-group input,
     .form-group select,
@@ -24,7 +26,7 @@
         font-size: 16px;
     }
 
-    /* صفحات about / privacy / terms / checkout: تقليل الحشوات */
+    /* about / privacy / terms / checkout: smaller inline paddings */
     .container[style*="padding: 40px"],
     .container[style*="padding: 50px"],
     .container > div[style*="padding: 50px"] {
