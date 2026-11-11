@@ -1,0 +1,42 @@
+/* ═══════ إصلاحات الموبايل ═══════ */
+
+/* إظهار أزرار الإضافة للسلة على الشاشات اللمسية (ما في hover) */
+@media (hover: none) {
+    .product-actions {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    /* القائمة الجانبية بارتفاع الشاشة الفعلي */
+    .main-nav {
+        height: 100vh;
+        height: 100dvh;
+        overflow-y: auto;
+    }
+
+    /* منع zoom الآيفون عند الضغط على الحقول */
+    input, select, textarea,
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        font-size: 16px;
+    }
+
+    /* صفحات about / privacy / terms / checkout: تقليل الحشوات */
+    .container[style*="padding: 40px"],
+    .container[style*="padding: 50px"],
+    .container > div[style*="padding: 50px"] {
+        padding: 22px !important;
+        margin: 16px auto !important;
+    }
+
+    .checkout-form,
+    .checkout-summary,
+    .cart-summary {
+        padding: 20px;
+    }
+
+    .checkout-summary { position: static; }
+}
